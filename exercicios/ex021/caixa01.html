@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{
+            background-color: lightblue;
+            height: 300px;
+            width: 300px;
+            
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray; 
+            /*
+            as três linhas acima pode ser simplificada no comando abiaxo
+            border: 10px solid darkslategray;
+            */
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            /*
+            as quatro linhas acima pode ser simplificada no comando abiaxo
+            padding: 10px 10px 10px 10px; ou somente um 10px por ser todos os valores iguais
+            */
+            
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+            
+            /*margin: auto; /*para deixar a caixa no meio*/
+
+            /*Para formatar do lado de fora da margem*/
+            outline-width: 5px;
+            outline-style: dashed; /*deixa pontilhado fora da margem*/
+            outline-color: salmon;
+        }
+        a{
+            /*inline-level*/
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caxa box-level</h1>
+    <p>Parágrafo também são exemplos de vox-level, mas os <a href="#">links são exemplos de caixa inline-level</a>. vamos ver tudo isso como funciona</p>
+</body>
+</html>

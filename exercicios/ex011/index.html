@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1> 
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumete e diminua o tamanho do seu navegador.</p>
+
+    <picture><!--regulando tamanho da imagem, tem que organizar por tamanho modo crescente-->
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="Image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <audio src="midia/Play Dead - NEFFEX.mp3" controls autoplay></audio>
+    <!--MP3 WAV OGG-->
+    <audio>
+    <source src="midia/Play Dead - NEFFEX.mp3" type="audio/mpeg">
+    <source src="midia/Play Dead - NEFFEX.mp3" type="audio/ogg">
+    <source src="midia/Play Dead - NEFFEX.mp3" type="audio/wav">
+    <p>Infelizmente seu navegado não consegue reproduzir áudio. <a href="midia/Play Dead - NEFFEX.mp3">Clique aqui para baixar o arquivo mp3</a></p>    
+    </audio>
+</body>
+</html>

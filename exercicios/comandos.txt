@@ -1,0 +1,121 @@
+<comando></fecha comando>
+
+h1 - até h6 niveo de titulo começando o maior do h1
+p - paragrafo
+small - texto pequeno
+big - texto grande 
+del - mostra o texto com risco
+ins - texto com inserirido
+u - sublinhado
+sup - fazer elevação ex: X elevado a 20
+sub - baixar um caracter como o 2 do H2O
+code - letras mono espaçada
+pre - formatar o texto conforme escriver
+shift + tab recua toodo o texto selecionado e o tab avança
+q - inseri aspas
+blockquote - apos o comando blockquote "cite = "link do site" para mostrar a citação de um endereço"
+abbr - mostra o siginificado das abreviações ex009
+bdo="ltr" inverter o texto
+a href - comando para add links e apos as aspas deste comando usa-se o comando target="_blank" para não perder a nevegação abrindo em outra aba
+
+ex 03 - imagem
+
+Aula 9 - Listas ordenadas e não ordenadas
+Aula 10 - Links  
+	<a href = "nome do index" rel = "next ou prev">
+	target = "_self" - dentro da a href solicita para abrir na mesma aba.
+
+ex013 - estilo de cor da fonte e body
+ex014 - Realizando padrão de style
+aula 13 - cores	 
+	ferramentas para saber a paletas
+		https://coolors.co
+		https://color.adobe.com/pt/create/color-wheel
+
+	*{} tudo que está em entre * e } é uma configuração global do css
+	*background-image: linear-gradient(to right, #CFCFCF, red); -> colori a pagina da esquerda 	para direita de modo linear
+ 	*background-image: radial-gradient(45deg, #CFCFCF, red); -> colori a pagina da esquerda para 	direita em angulo de 45º
+	background-image: radial-gradient(cicle, #CFCFCF, red); -> colori a pagina de forma circular
+	*Apos as cores pode colocar a porcentagem que vai preencher a pagina
+
+Aula 14 - Fontes
+	Para ver as fontes "css web safe font combination"
+	Medidas absolutas: cm, mm, pelogada in, px, ponto pt, paica pc
+	Medidas Relativas: em, ex, view wideth vw, vh, % 
+	Recomendação: usar px ou em 16px é igual a 1em
+	font-weight: -> indica o peso da fonte "lighter, normal, bold, bolder"
+
+Ex017 fontes
+	Ferramentas para fontes Google Fonts e dafont.com
+	
+	 Tipos de formatos
+            -opentype (otf)
+            -truetype (ttf)
+            -embedded-opentype
+            -truetype-aat (Apple Advanced Typography)
+            -svg
+
+CAPITULO 14 AULA 09 COPIAR FONTES DE IMAGENS
+	https://www.whatfontis.com/
+	https://www.fontsquirrel.com/
+	https://www.myfonts.com/
+CAPITULO 15 EX019 - modo de selecionar somente um item para modificar dentro de style
+EX020 HOVER - USADO PARA FAZER SUBMENUS
+capitulo 16 exe 021 - margin: auto; /*para deixar a caixa no meio*/
+	border-radius: 20px; para fazer bordas arredondada
+
+Capitulo 16 aula 07 - borda personalizada
+
+EX 020 
+	  /*SELETORES PERSONALIZADOS
+        #  = id
+        .  = class
+        :  = pseudo-class
+        :: = pseudo-element
+        >  = clildren
+        */
+COMANDO
+CTRL + SHIFT + p após pressione "enter" e verifique "envolver com abreviação" e "enter"
+
+
+Tags HTML e seus Significados
+
+    DOCTYPE: define o tipo de documento
+    html: define o início do documento html, todos as demais tags devem estar dentro desta tag
+    head: cabeçalho onde ficar os metadados do documento, como metatgs, css e javascript
+    title: define o título do documento, mostrado na barra de títulos do navegador e como link nos mecanismos de busca
+    base: define a url base do documento
+    link: utilizado para linkar um arquivo de imagem ou css a página html
+    script: utilizado para escrever ou anexar um arquivo normalmente javascript a página
+    meta: metatags, como charset, description, viewport ou keywords
+    style: utilizada para adicionar um código css a página
+    body: corpo ou área principal do documento, dentro deste deve ficar o conteúdo da sua página
+    header: define um cabeçalho da página ou de uma seção, normalmente pode conter um menu (nav), um logo ou link
+    nav: define uma área de navegação contendo links, para a formação de menus com hiperlinks
+    footer: define o rodapé de uma página ou seção
+    main: define o conteúdo principal da página, deve ser utilizado apenas uma única vez em cada página
+    section: define uma seção do documento
+    article: pode ser um post ou notícia de um fórum ou blog, define um conteúdo independente
+    h1 a h6: representam 6 níveis de títulos, sendo o h1 de maior importância
+    p: define um parágrafo
+    br: define uma quebra de linha
+    div: define uma camada sem formatação, genérico
+    ul: define uma lista não ordenada
+    li: define um elemento ou item da lista não ordenada
+    a: define um link que deve ser apontado com o atributo href
+    img: define a utilização de uma imagem (JPG, GIF, PNG e outras). A imagem deve ser apontada com o uso do atributo src
+    strong: apesar de deixar em negrito, representa a importância deste texto no meio da frase
+
+
+FERRAMENTAS PARA TRABALHO
+	CHROME
+		fonts ninja
+		window resizer
+	sites (está no mozila na aba HTML5)
+
+cap 17 aula 17
+	<source media="(max-width: 800px)" srcset="imagens/"outra imagem"> comando para selecionar outra imagem quando ficar menor que 800px tendo que ficar as duas imagens encapsuladas pelo <picture></picture>
+
+/*display: block e margin: auto para poder centralizar a imagem*/
+
+	
