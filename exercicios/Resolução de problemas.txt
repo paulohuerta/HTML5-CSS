@@ -1,0 +1,1 @@
+1 para poder visualizar os sites pelo github tem que estar o "branch" como master em "Setting/Pages/branch" selecione master, caso não tenha essa opção tem que criar direto no programa adicionando em current banch/ new branch
