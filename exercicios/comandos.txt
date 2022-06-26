@@ -96,7 +96,7 @@ Tags HTML e seus Significados
     main: define o conteúdo principal da página, deve ser utilizado apenas uma única vez em cada página
     section: define uma seção do documento
     article: pode ser um post ou notícia de um fórum ou blog, define um conteúdo independente
-    h1 a h6: representam 6 níveis de títulos, sendo o h1 de maior importância
+    h1 a h6:  representam 6 níveis de títulos, sendo o h1 de maior importância
     p: define um parágrafo
     br: define uma quebra de linha
     div: define uma camada sem formatação, genérico
@@ -105,7 +105,7 @@ Tags HTML e seus Significados
     a: define um link que deve ser apontado com o atributo href
     img: define a utilização de uma imagem (JPG, GIF, PNG e outras). A imagem deve ser apontada com o uso do atributo src
     strong: apesar de deixar em negrito, representa a importância deste texto no meio da frase
-
+    <section> - O elemento HTML <section> representa uma seção genérica contida em um documento HTML, geralmente com um título, quando não existir um elemento semântico mais específico para representá-lo. Por exemplo, um menu de navegação deve estar dentro um elemento <nav>, mas uma lista de resultados de pesquisa ou a exibição de um mapa e seus controles não possuem elementos específicos, e podem ser colocados dentro de uma <section>. 	
 
 FERRAMENTAS PARA TRABALHO
 	CHROME
@@ -117,5 +117,14 @@ cap 17 aula 17
 	<source media="(max-width: 800px)" srcset="imagens/"outra imagem"> comando para selecionar outra imagem quando ficar menor que 800px tendo que ficar as duas imagens encapsuladas pelo <picture></picture>
 
 /*display: block e margin: auto para poder centralizar a imagem*/
+
+EX022 FUNDO 006
+	background-size: cover; /*ajusta o tamanho da imagem conforme o tamanho da janela, fazendo 		cortes e preenchendo a janela*/
+
+	background-attachment: fixed; /*fixa o tamanho da imagem do fundo e movimenta somente o 	conteudo*/
+
+	position: absolute;/*posição tem a referencia conforme a referencia pai*/
+
+	transform: translate(-50%, -50%); /*reposicionar o elemento no eixo x e y*/
 
 	
