@@ -37,6 +37,8 @@
         }
 
         header{
+            min-width: 300px;
+            max-width: 1000px;
             background-image: linear-gradient(to bottom, var(--cor3), var(--cor5) );
             min-height: 150px; /*altura minima*/
             text-align: center;

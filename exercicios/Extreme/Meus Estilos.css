@@ -18,10 +18,10 @@ header{
     min-width: 300px;
     max-width: 1000px;
     background-color: white;
-    padding: 10px;
+    padding: 0px;
     margin: auto;
     BOX-SHADOW: 5PX 3PX 7PX 1PX rgba(0, 0, 0, 0.5);
-    border-radius: 10px 0px;    
+    border-radius: 0px 10px;    
 }
 header h2{
     background-image: linear-gradient(to right, var(--cor1), transparent);
@@ -29,7 +29,8 @@ header h2{
 nav{
     background-color: rgb(102, 102, 102);
     padding: 3px;
-    BOX-SHADOW: 5PX 3PX 7PX 1PX rgba(0, 0, 0, 0.5)
+    BOX-SHADOW: 5PX 3PX 7PX 1PX rgba(0, 0, 0, 0.5);
+    font-size: 2.0vw;
 }
 nav > a{
     color: white;
@@ -54,6 +55,13 @@ main{
 }
 main h2{
     background-image: linear-gradient(to right, var(--cor1), transparent);
+}
+main p{
+    margin: 15px;
+    text-align: justify;
+    text-indent: 30px; /*margem de cada paragrafo*/
+    font-size: 1em;
+    line-height: 2em; /*espaçamento entre linhas*/
 }
 .manutencao{
     background-color: #743030;
