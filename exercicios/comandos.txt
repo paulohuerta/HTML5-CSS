@@ -127,4 +127,7 @@ EX022 FUNDO 006
 
 	transform: translate(-50%, -50%); /*reposicionar o elemento no eixo x e y*/
 
+	text-shadow: 1px 1px 0px black; /*faz sombra no texto*/
+
+
 	
