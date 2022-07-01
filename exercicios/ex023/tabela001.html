@@ -17,11 +17,17 @@
         }
         table{
             width: 400px;
+            height: 400px;
             border-collapse: collapse; /*cola a borda uma na outra*/
         }
         td{
             border: 1px solid black; /*fazer borda ao redor da tabela*/ 
             padding: 8px;
+            text-align: center;/*Alinhamento horizontal*/
+            vertical-align: middle; /*alinhamento vertical*/
+        }
+        .numero{
+            text-align: right;
         }
     </style>
 </head>
@@ -41,10 +47,10 @@
         <tr class="linha"> <!--Segunda linha-->
             <td>A2</td>
             <td>B2</td>
-            <td>C3</td>
+            <td class="numero">C3</td>
         </tr>
         <tr><!--Terceira linha-->
-            <td>A3</td>
+            <td class="numero">A3</td>
             <td>B3</td>
             <td>C3</td>
         </tr>
