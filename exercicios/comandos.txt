@@ -129,5 +129,19 @@ EX022 FUNDO 006
 
 	text-shadow: 1px 1px 0px black; /*faz sombra no texto*/
 
+TABELA
+	É importante usar o "scope" pois as maquinas de busca valoriza os conteudo com um bom escopo, mesmo que visualmente não mude em nada.
+
+	nth-child(2n) faz o efeito zebrado na coluna sendo o 2n marcar a cada 2 linhas
+
+anatomia da tabela
+	caption    
+        thead  - cabeça
+                tr,td,th
+            tbody - corpo
+                tr,td,th
+            tfoot - rodapé
+                tr,td,th
+
 
 	
