@@ -144,4 +144,10 @@ anatomia da tabela
                 tr,td,th
 
 
+IFRAMES
+
+<iframe id="tela" name="frame" srcdoc= ... pode colocar p, h1, imagens e diversos objetos usando o srcdoc.
+Para proteger o iframe no maximo usa-se o sandbox <iframe src="paginas-extras/pag004.html" sandbox="sandbox"
+O referrerpolicy="no-referrer" não coleta nenhum tipo de iformação do usuário com o ex: <iframe src="paginas-extras/pag004.html" sandbox="sandbox" referrerpolicy="no-referrer"
+Permitinhdo o uso de coisas da mesma origem, allow-same-origin, formulários, allow-forms e allow-scripts <iframe src="paginas-extras/pag004.html" sandbox="allow-same-origin allow-forms allow-scripts" 
 	
