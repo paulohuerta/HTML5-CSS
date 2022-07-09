@@ -150,4 +150,11 @@ IFRAMES
 Para proteger o iframe no maximo usa-se o sandbox <iframe src="paginas-extras/pag004.html" sandbox="sandbox"
 O referrerpolicy="no-referrer" não coleta nenhum tipo de iformação do usuário com o ex: <iframe src="paginas-extras/pag004.html" sandbox="sandbox" referrerpolicy="no-referrer"
 Permitinhdo o uso de coisas da mesma origem, allow-same-origin, formulários, allow-forms e allow-scripts <iframe src="paginas-extras/pag004.html" sandbox="allow-same-origin allow-forms allow-scripts" 
+
+cap 22 aula 8 - inserindo mapas e videos com iframes
+
+cap 27 aula 7 - personalizando imagens para iframes
+
+cap 28 formularios
+	<form autocomplete="off"> desliga a o preenchimento automático
 	
