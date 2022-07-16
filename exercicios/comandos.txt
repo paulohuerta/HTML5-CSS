@@ -162,3 +162,5 @@ Metodos de envio
 	Metodo padrão, usa-se como padrão quando não tem senha, no restante deve-se usar ele por melhores padrões de busca, usa-se no max 3000 bytes - GET
 	Metodo onde oculta as informações na URL, porém se visualiza pela inspeção do navegador, se quiser enviar arquivos usa-se post - POST
 	Para melhor segurança deve-se usar o https, no momento estou estudando somente o http, sem o "S"
+
+TEM QUE FAZER JAVA SCRIPT
